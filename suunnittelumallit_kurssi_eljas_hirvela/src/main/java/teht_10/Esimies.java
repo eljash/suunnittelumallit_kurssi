@@ -16,7 +16,7 @@ public class Esimies extends Tyontekija {
 					+ "Siirrän pyynnön esimiehelle.");
 			super.palkankorotus(korotusProsentti, pyytaja);
 		}
-		else if(esimies!=null) {
+		else if(korotusProsentti <= maxPalkankorotus) {
 			System.out.println(nimi+": korotan työntekijän palkkaa "
 					+ "("+korotusProsentti+"%, esimiehen maksimi on " + maxPalkankorotus +"%).");
 			pyytaja.korotaPalkkaa(korotusProsentti);
