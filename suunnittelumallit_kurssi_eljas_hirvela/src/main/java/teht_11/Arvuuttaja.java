@@ -19,6 +19,12 @@ public class Arvuuttaja {
 				return true;
 			}
 		} catch (Exception e) {
+			/*
+			 * Asiakas olion ilmentymällä ei ole Mementoa, jolloin 
+			 * tämä pelaaja ei ole käynyt Arvuuttajan "liityPeliin" metodin läpi.
+			 * Tällöin pelaaja ei ole osallistunut peliin, mutta yrittää arvata
+			 * lukua.
+			 */
 			System.err.println("Pelaaja ei ole liittynyt peliin ja yritti arvata lukua");
 		}
 		
