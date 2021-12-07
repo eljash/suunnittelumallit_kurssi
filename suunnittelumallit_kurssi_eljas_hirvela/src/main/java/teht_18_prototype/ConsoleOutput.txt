@@ -1,0 +1,24 @@
+--Kello 1 viisarit osoittaa:
+Tunnit: 0, minuutit: 0, sekunnit: 0
+
+--Kasvatetaan kello 1:n aikaa 80 sekunnilla
+--Kello 1 viisarit osoittaa:
+Tunnit: 0, minuutit: 1, sekunnit: 20
+
+--Kasvatetaan kello 1:n aikaa 3600 sekunnilla
+--Kello 1 viisarit osoittaa:
+Tunnit: 1, minuutit: 1, sekunnit: 20
+
+--Tehdään syväkopio kello 1:stä = kello 2
+--Kello 2 viisarit osoittaa:
+Tunnit: 1, minuutit: 1, sekunnit: 20
+
+--Kasvatetaan kello 1:n aikaa 3600 sekunnilla
+--Kello 1 vs kello 2
+Tunnit: 2, minuutit: 1, sekunnit: 20
+Tunnit: 1, minuutit: 1, sekunnit: 20
+
+--Resetoidaan kello 1, eli kaikki viisarit osoittaa 0
+--Kello 1 vs kello 2
+Tunnit: 0, minuutit: 0, sekunnit: 0
+Tunnit: 1, minuutit: 1, sekunnit: 20
