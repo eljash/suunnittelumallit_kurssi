@@ -1,0 +1,9 @@
+--Valkokangas ja napit asennettiin niin, että valkokangas on aluksi alhaalla
+----Painetaan ylös nappia:
+Screen.rollUp: Valkokangas nousee ylös.
+----Painetaan ylös nappia uudestaan:
+Screen.rollUp: Valkokangas on jo ylhäällä.
+----Painetaan alas nappia:
+Screen.rollDown: Valkokangas laskee alas.
+----Painetaan alas nappia uudestaan:
+Screen.rollDown: Valkokangas on jo alhaalla.
